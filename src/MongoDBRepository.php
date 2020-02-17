@@ -5,7 +5,7 @@ namespace PcComponentes\MongoDB;
 
 use MongoDB\Collection;
 
-abstract class MongoDbRepository
+abstract class MongoDBRepository
 {
     protected Collection $collection;
 

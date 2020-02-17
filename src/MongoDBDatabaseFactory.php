@@ -6,7 +6,7 @@ namespace PcComponentes\MongoDB;
 use MongoDB\Client;
 use MongoDB\Database;
 
-final class MongoDbDatabaseFactory
+final class MongoDBDatabaseFactory
 {
     public static function get(Client $client, string $database): Database
     {
